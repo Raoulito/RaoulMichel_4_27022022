@@ -285,6 +285,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    font-display: swap;
 }
 
 .navbar {
@@ -299,6 +300,7 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    font-display: swap;
 }
 
 .navbar-brand img {
@@ -326,6 +328,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    font-display: swap;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -477,10 +480,12 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    font-display: swap;
 }
 
 .icon-lg {
     font-size: 60px!important;
+    font-display: swap;
 }
 
 .sm-shadow {
@@ -528,6 +533,7 @@ button {
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
+    font-display: swap;
 }
 
 a[data-lightbox] {
@@ -540,6 +546,7 @@ a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
+    font-display: swap;
     width: 50px;
     height: 50px;
     margin-left: -25px;
@@ -589,6 +596,7 @@ a[data-lightbox]:hover img {
 .close-lightbox {
     color: #FFF;
     font-size: 30px;
+    font-display: swap;
     position: absolute;
     top: 20px;
     right: 20px;
@@ -610,6 +618,7 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
+    font-display: swap;
     color: rgba(255, 255, 255, .9);
     background: rgba(0, 0, 0, .5);
     transition: all .2s ease-in-out;
@@ -650,6 +659,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
+    font-display: swap;
     font-weight: 400;
     color: #575757!important;
 }
@@ -660,16 +670,19 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    font-display: swap;
 }
 
 .hero-bloc-text-sub {
     font-size: 36px;
+    font-display: swap;
 }
 
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
     font-size: 20px;
+    font-display: swap;
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
@@ -678,6 +691,7 @@ a {
 
 p {
     font-size: 12px;
+    font-display: swap;
 }
 
 .tight-width-whitespace {
@@ -688,6 +702,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    font-display: swap;
 }
 
 .cta-hero {
@@ -697,6 +712,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    font-display: swap;
 }
 
 .social {
@@ -709,11 +725,13 @@ p {
         text-transform: uppercase;
         font-weight: 700;
         color: #333333!important;
+        font-display: swap;
     }
 
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    font-display: swap;
 }
 
 h3 {
@@ -721,6 +739,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+    font-display: swap;
 }
 
 .med-width-whitespace {
@@ -767,6 +786,7 @@ h4 {
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+    font-display: swap;
 }
 
 .bgc-white {
@@ -830,6 +850,19 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+}
+
+.citation {
+    font-size: 18px;
+    font-style:italic;
+    color:#575757!important;
+}
+
+.signature {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 100;
+    color:#575757!important;
 }
 
 @media (max-width: 1024px) {
