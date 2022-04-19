@@ -858,6 +858,7 @@ h4 {
     color:#575757!important;
     margin-top: 20px;
     text-align: center;
+    overflow-wrap: break-word;
 }
 
 .signature {
@@ -865,6 +866,7 @@ h4 {
     text-align: center;
     font-weight: 100;
     color:#575757!important;
+    padding-top: 20px;
 }
 
 @media (max-width: 1024px) {
