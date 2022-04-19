@@ -265,11 +265,11 @@ a:hover {
 }
 
 .voffset {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-bottom: 30px;
 }
 
 .row-no-gutters {
@@ -856,6 +856,8 @@ h4 {
     font-size: 18px;
     font-style:italic;
     color:#575757!important;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .signature {
